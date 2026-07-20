@@ -1,12 +1,12 @@
 cask "beacon" do
-  version "1.3.0"
+  version "1.3.1"
 
   on_arm do
-    sha256 "f07cccb416f35126c3b98f0113df1c0e76d7f4f6e44bb46d11262de2e2f69aec"
+    sha256 "8969e77671e6048ffddda721d11f49ab02acbb1b8e3f176378594dc7b450fc14"
     url "https://github.com/jeet427/beacon-releases/releases/download/v#{version}/Beacon-#{version}-arm64.dmg"
   end
   on_intel do
-    sha256 "05cba42ff325d0dac59e71ba4e4bfa29e966c8050e4f9cee40dd4b18767b0d8d"
+    sha256 "36f79b9c010f28cd85215f0658ff49a2df2a2ab9f54f72d67f20a3651563545c"
     url "https://github.com/jeet427/beacon-releases/releases/download/v#{version}/Beacon-#{version}.dmg"
   end
 
